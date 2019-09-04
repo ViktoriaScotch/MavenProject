@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412e1f08-d178-4ed0-ad39-8a03a62fb15f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java" afterDir="false" />
     </list>
@@ -19,25 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+            <state relative-caret-position="415">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="397" column="22" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
-              <folding>
-                <element signature="e#15305#15306#0" expanded="true" />
-                <element signature="e#15360#15361#0" expanded="true" />
+                <element signature="e#2343#2344#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +90,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567585562643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567588722791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -177,18 +162,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TheAvengers - 2019.09.04 at 09h 49m 05s.xml">
-      <configuration name="TheAvengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 10h 47m 34s.xml">
-      <configuration name="TheAvengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 10h 48m 59s.xml">
-      <configuration name="TheAvengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 08m 29s.xml">
-      <configuration name="TheAvengers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TheAvengers - 2019.09.04 at 11h 13m 16s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
@@ -205,6 +178,18 @@
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TheAvengers - 2019.09.04 at 11h 22m 12s.xml">
+      <configuration name="TheAvengers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheAvengers - 2019.09.04 at 12h 16m 08s.xml">
+      <configuration name="TheAvengers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheAvengers - 2019.09.04 at 12h 17m 13s.xml">
+      <configuration name="TheAvengers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheAvengers - 2019.09.04 at 12h 18m 07s.xml">
+      <configuration name="TheAvengers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheAvengers - 2019.09.04 at 12h 19m 26s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -273,7 +258,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java</url>
-          <line>57</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -464,17 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="397" column="22" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
-          <folding>
-            <element signature="e#15305#15306#0" expanded="true" />
-            <element signature="e#15360#15361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -489,14 +463,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="397" column="22" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
+          <folding>
+            <element signature="e#15305#15306#0" expanded="true" />
+            <element signature="e#15360#15361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        <state relative-caret-position="415">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
           </folding>
         </state>
       </provider>

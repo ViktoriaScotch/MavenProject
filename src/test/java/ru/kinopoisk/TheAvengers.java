@@ -5,7 +5,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,6 +20,7 @@ public class TheAvengers {
     public void login () throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", new File("").getAbsolutePath() + "\\src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
         driver.get("https://www.kinopoisk.ru/");
         Assert.assertTrue(driver.getTitle().equals("КиноПоиск — Все фильмы планеты"));
@@ -31,7 +31,6 @@ public class TheAvengers {
         driver.findElementByXPath("//input[@name='login']").sendKeys("c86539@urhen.com");
         Assert.assertTrue(driver.findElementByXPath("//input[@name='login']").getAttribute("value").equals("c86539@urhen.com"));
         driver.findElementByXPath("//button[contains(@class, 'passp-form-button')]").click();
-        Thread.sleep(1000);
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("passp-field-passwd")));
