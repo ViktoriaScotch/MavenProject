@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="412e1f08-d178-4ed0-ad39-8a03a62fb15f" name="Default Changelist" comment="">
+    <list default="true" id="412e1f08-d178-4ed0-ad39-8a03a62fb15f" name="Default Changelist" comment="Class with hooks and some checks added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/kinopoisk/TheAvengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/kinopoisk/TheAvengers.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,14 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="68">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/kinopoisk/Waiting.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/kinopoisk/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java" />
       </list>
     </option>
@@ -77,25 +93,65 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2060" />
-    <option name="y" value="-258" />
-    <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kinopoisk" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567588722791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568047713105" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,45 +215,53 @@
       <option name="presentableId" value="Default" />
       <updated>1567005226471</updated>
     </task>
+    <task id="LOCAL-00001" summary="Maximization of the window added">
+      <created>1567588836777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567588836777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 13m 16s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 27m 39s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 13m 50s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 27m 50s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 18m 30s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 28m 10s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 20m 22s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 34m 37s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 21m 33s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 35m 21s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 11h 22m 12s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 38m 14s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 12h 16m 08s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 40m 05s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 12h 17m 13s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 42m 24s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 12h 18m 07s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 45m 06s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheAvengers - 2019.09.04 at 12h 19m 26s.xml">
+    <history-entry file="TheAvengers - 2019.09.09 at 19h 47m 20s.xml">
       <configuration name="TheAvengers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-255" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -207,14 +271,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35102925" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34844193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4989339" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -253,14 +317,18 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maximization of the window added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maximization of the window added" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/Hooks.java</url>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -456,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="125" column="48" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -474,13 +535,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="144">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#5848#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="125" column="48" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/Waiting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/kinopoisk/TheAvengers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
